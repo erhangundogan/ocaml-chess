@@ -1,0 +1,9 @@
+(executable
+ (name test_notation)
+ (modules test_notation)
+ (libraries alcotest chess-notation))
+
+(rule
+ (alias runtest)
+ (action
+   (run %{exe:test_notation.exe} -q --color=always)))

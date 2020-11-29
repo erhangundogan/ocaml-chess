@@ -1,0 +1,4 @@
+(library
+  (name chess_notation)
+  (public_name chess-notation)
+  (libraries logs re fmt))

@@ -1,0 +1,16 @@
+_build
+_opam
+.merlin
+.envrc
+*.merlin
+*.install
+.#*
+*~
+.*.swp
+\#*
+docs/html/
+docs/*.zip
+_coverage/
+tmp
+
+
