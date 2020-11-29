@@ -22,7 +22,7 @@ Pawn   | d         | yes     | c3      |           | yes        |
 ### Run tests
 
 ```bash
-$ dune exec examples/read_notation.exe
+$ dune runtest
 ```
 
 ### Docs (requires [odoc](https://github.com/ocaml/odoc) package)
